@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Porcentaje Facil</string>
+    -- App--
+    <string name="calcular">Calcular</string>
+
+    <string name="action_settings">Desarrollado Por</string>
+    <string name="datos">Ingrese Datos</string>
+    <string name="acerca">Desarrollado Por .... </string>
+    <string name="realmentesalir">Realmente desea salir de </string>
+    <string name="salir">Salir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="limpiar">Limpiar Datos</string>
+    <string name="compartir">Compartir </string>
+    -- Menu --
+    <string name="porcentajesimple">Porcentaje Simple</string>
+    <string name="descuento">Descuento</string>
+    <string name="propina">Propina</string>
+    <string name="fracciones">Fracciones</string>
+    <string name="iva">IVA</string>
+    <string name="aumentoprecio">Aumento De Precio</string>
+    <string name="porcentajeganancia">Ganancia %</string>
+    <string name="comicion">Comisión %</string>
+
+    -- Benner --
+    <string name="banner_ad_unit_id">ca-app-pub-4183684993313367/8971713537</string>
+    ca-app-pub-8999343799873209~3537110176
+    -- Comicion --
+    <string name="Comicion">Comisión</string>
+    <string name="Ventas">Cantidad</string>
+    <string name="comicionventas">Comisión</string>
+    -- Ganancia --
+    <string name="gananciaporcentaje">Ganancia % </string>
+    <string name="precioventa">Precio de Venta</string>
+    <string name="precioprovedor">Precio de Provedor</string>
+    -- Activity Porcentaje Simple --
+
+    <string name="title_activity_porcentaje_simple">PorcentajeSimple</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="cuentapropina">Cuenta De Propina</string>
+    <string name="cantidadpropina">Cantidad De Propina</string>
+    <string name="total">Total</string>
+
+
+    -- Activity Descuento --
+    <string name="title_activity_descuento">Descuento</string>
+
+    <string name="Pactual">Precio Actual</string>
+    <string name="ahorras">Ahorras</string>
+    <string name="descuentop">Descuento %</string>
+    <string name="Pdescuentp">Precio C/Descuento</string>
+    -- Activity Propina --
+    <string name="title_activity_propina">Propina</string>
+
+
+    -- Activity Fraciones --
+    <string name="title_activity_fracciones">Fracciones</string>
+    <string name="fraccion">Fracción</string>
+    <string name="mismo">Es Lo Mismo Que</string>
+
+    -- Activity Iva --
+    <string name="title_activity_iva">Iva</string>
+    <string name="precioneto">Precio Neto</string>
+    <string name="preciobruto">Precio Bruto</string>
+    <string name="impuestos">Impuestos</string>
+    <string name="ivap">IVA %</string>
+
+
+    -- Activity Aumento De Precio --
+    <string name="title_activity_aumento__de__precio">Aumento De Precio</string>
+    <string name="costo">Costo</string>
+    <string name="Aumento">Aumento De Precio</string>
+    <string name="venta">Venta</string>
+    <string name="ganancia">Ganancia</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    -- Profecionistas --
+    <string name="programador">Director de Operaciones  / Director de Tecnología</string>
+    <string name="inversionista">Director Ejecutivo /Director Financiero </string>
+    <string name="disenador">Director de Diseño </string>
+
+    -- Desarrollado Por --
+
+    <string name="link">Siguenos En Facebook</string>
+    <string name="title_activity_nose">nose</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

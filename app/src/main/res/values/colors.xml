@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="procentajesimple">#4f96d7</color>
+    <color name="descuento">#8da2d7</color>
+    <color name="propina">#b1d2a2</color>
+    <color name="fracciones">#14f1e3</color>
+    <color name="iva">#fdd993</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="splash">#fdfdfe</color>
+    <color name="limpiar">#8e6ced</color>
+    <color name="azul">#3f51b5</color>
+    <color name="morado2">#8da2d7</color>
+    <color name="verde">#63f32a</color>
+    <color name="naranja">#ff5d1b</color>
+    <color name="amarillo">#f1af30</color>
+    <color name="morado">#7b4dfe</color>
+    <color name="gf">#e62af3</color>
+    <color name="cafe">#795548</color>
+</resources>

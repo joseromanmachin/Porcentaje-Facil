@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.keepsystems.porcentajefacil.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="10dp"
+                android:elevation="24dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnGanancia"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="5"
+                    android:background="@android:color/holo_green_dark"
+                    android:elevation="24dp"
+                    android:fontFamily="casual"
+                    android:text="@string/porcentajeganancia"
+                    android:textSize="24sp"
+                    android:typeface="serif" />
+
+                <Button
+                    android:id="@+id/btnComicion"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="5"
+                    android:background="?attr/actionModeSplitBackground"
+                    android:elevation="24dp"
+                    android:fontFamily="casual"
+                    android:text="@string/comicion"
+                    android:textSize="24sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="10dp"
+                android:elevation="24dp"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/btnporcentajesimple"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".5"
+                    android:background="@color/azul"
+                    android:elevation="24dp"
+                    android:fontFamily="casual"
+                    android:text="@string/porcentajesimple"
+                    android:textSize="24sp"
+                    android:typeface="serif"></Button>
+
+
+                <Button
+
+
+                    android:id="@+id/btnDescuento"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".5"
+                    android:background="@color/gf"
+                    android:elevation="24dp"
+                    android:fontFamily="casual"
+                    android:text="@string/descuento"
+                    android:textSize="24sp"
+                    android:typeface="serif"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="10dp"
+                android:elevation="24dp"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/btnPropina"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".5"
+                    android:background="@color/verde"
+                    android:elevation="24dp"
+                    android:fontFamily="casual"
+                    android:text="@string/propina"
+                    android:textSize="24sp"
+                    android:typeface="serif"></Button>
+
+
+                <Button
+
+
+                    android:id="@+id/btnFracciones"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".5"
+                    android:background="@color/naranja"
+                    android:elevation="24dp"
+                    android:fontFamily="casual"
+                    android:text="@string/fracciones"
+                    android:textSize="24sp"
+                    android:typeface="serif"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="10dp"
+                android:elevation="24dp"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/btnIva"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".5"
+                    android:background="@color/amarillo"
+                    android:elevation="24dp"
+                    android:fontFamily="casual"
+                    android:text="@string/iva"
+                    android:textSize="24sp"
+                    android:typeface="serif"></Button>
+
+
+                <Button
+
+                    android:id="@+id/btnAumento"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".5"
+                    android:background="@color/morado"
+                    android:elevation="24dp"
+                    android:fontFamily="casual"
+                    android:text="@string/aumentoprecio"
+                    android:textSize="24sp"
+                    android:typeface="serif"></Button>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+</RelativeLayout>
